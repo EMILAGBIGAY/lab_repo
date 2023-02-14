@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <!-- ensures proper rendering and touch zooming for all devices  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Task 1: TODO: change href attribute of the stylesheet link  -->
+            <!-- The only files you can edit is functions.js -->
+        <link id="mainStyleSheet" rel="stylesheet" href="light.css" />
+        <title>LAB 3 Home page</title>
+
+
+    </head>
+
+    <body>  
+          <div class="container" >
+            <ul>
+              <li >
+                <a   href="index.html">Home</a>
+              </li>
+              <li >
+                <a   href="about.html">About Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <button type="button" onclick="button1()">Increment</button>
+		      <p id="output"></p>
+    
+
+            
+
+            <!-- Task 2: TODO: Make the background color persistent. If you refresh the page the background color for this entire page should be persistent -->
+            <div id="lastDiv" class="row border">
+              <p>Change my background color. (You can only edit functions.js file provided)</p>
+            </div>
+
+            <div class="container">
+              <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+            </div>
+
+        <script src="functions.js"></script>
+    </body>
+</html>
